@@ -1,7 +1,7 @@
 const tag = '[View]'
 
 export default {
-  init(el) {
+  init(el) { // element를 받아서 this.el > 즉 자신의 속성에 element를 넣기 
     if (!el) throw el
     this.el = el
     return this
